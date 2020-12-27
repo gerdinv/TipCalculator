@@ -31,15 +31,15 @@ Here's a walkthrough of implemented user stories:
 
 <img src="http://g.recordit.co/dYY29wwqqL.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [RecordIt](https://recordit.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This is my first ever IOS Application. Although this app is fairly simple, building it was fun and I did encounter some obstacles. First off, I would make simple mistakes such as forgetting to update the reference to the update variables that I created. Also, I ran into trouble updating all of the labels and values of the sliders. Overall, I think this was a great starter project and I can't wait to 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Gerdin Ventura Croussett]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
