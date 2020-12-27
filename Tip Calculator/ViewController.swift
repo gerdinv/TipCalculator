@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     var bill = 0.00;
     var splitNum = 1.00;
     
-    
     @IBOutlet weak var tipSlider: UISlider!
     @IBOutlet weak var tipPercentage: UILabel!
     @IBOutlet weak var billField: UITextField!
@@ -47,8 +46,6 @@ class ViewController: UIViewController {
         bottomContentContainer.layer.masksToBounds = true
         bottomContentContainer.layer.borderWidth = 1.5
         bottomContentContainer.layer.borderColor = UIColor.black.cgColor
-        
-        
         
         tipSlider.maximumValue = 100;
     }
