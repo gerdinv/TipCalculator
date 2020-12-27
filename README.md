@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] List anything else that you can get done to improve the app functionality!
-- [x] Added a "split bill feature" that provides users the bill and provides the total bill per person. 
+- [x] Added a "split bill feature" that allows users to split the bill and provides the total bill per person. 
 
 ## Video Walkthrough
 
