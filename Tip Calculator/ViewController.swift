@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var percentage = 0.00; // Default Tip: 15%
+    var percentage = 0.00;
     var bill = 0.00;
     var splitNum = 1.00;
     
@@ -32,15 +32,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
         topContentContainer.layer.cornerRadius = 15
         topContentContainer.layer.masksToBounds = true
+        topContentContainer.layer.borderWidth = 1.5
+        topContentContainer.layer.borderColor = UIColor.black.cgColor
         
         middleContentContainer.layer.cornerRadius = 15
         middleContentContainer.layer.masksToBounds = true
+        middleContentContainer.layer.borderWidth = 1.5
+        middleContentContainer.layer.borderColor = UIColor.black.cgColor
         
         bottomContentContainer.layer.cornerRadius = 15
         bottomContentContainer.layer.masksToBounds = true
+        bottomContentContainer.layer.borderWidth = 1.5
+        bottomContentContainer.layer.borderColor = UIColor.black.cgColor
+        
+        
         
         tipSlider.maximumValue = 100;
     }

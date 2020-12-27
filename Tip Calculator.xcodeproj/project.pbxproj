@@ -15,6 +15,7 @@
 		0B481A2A25974C37003A32B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B481A2825974C37003A32B6 /* LaunchScreen.storyboard */; };
 		0B481A3525974C38003A32B6 /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B481A3425974C38003A32B6 /* Tip_CalculatorTests.swift */; };
 		0B481A4025974C38003A32B6 /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B481A3F25974C38003A32B6 /* Tip_CalculatorUITests.swift */; };
+		0B481A4E25985BC7003A32B6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B481A4D25985BC7003A32B6 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0B481A3B25974C38003A32B6 /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B481A3F25974C38003A32B6 /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		0B481A4125974C38003A32B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B481A4D25985BC7003A32B6 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0B481A1F25974C37003A32B6 /* SceneDelegate.swift */,
 				0B481A2125974C37003A32B6 /* ViewController.swift */,
 				0B481A2325974C37003A32B6 /* Main.storyboard */,
+				0B481A4D25985BC7003A32B6 /* GradientView.swift */,
 				0B481A2625974C37003A32B6 /* Assets.xcassets */,
 				0B481A2825974C37003A32B6 /* LaunchScreen.storyboard */,
 				0B481A2B25974C37003A32B6 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				0B481A2225974C37003A32B6 /* ViewController.swift in Sources */,
 				0B481A1E25974C37003A32B6 /* AppDelegate.swift in Sources */,
+				0B481A4E25985BC7003A32B6 /* GradientView.swift in Sources */,
 				0B481A2025974C37003A32B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
