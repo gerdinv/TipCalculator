@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B481A1A25974C37003A32B6 /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B481A1A25974C37003A32B6 /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B481A1D25974C37003A32B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B481A1F25974C37003A32B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B481A2125974C37003A32B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		0B481A1B25974C37003A32B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B481A1A25974C37003A32B6 /* Tip Calculator.app */,
+				0B481A1A25974C37003A32B6 /* Tipsy.app */,
 				0B481A3025974C37003A32B6 /* Tip CalculatorTests.xctest */,
 				0B481A3B25974C38003A32B6 /* Tip CalculatorUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = "Tip Calculator";
 			productName = "Tip Calculator";
-			productReference = 0B481A1A25974C37003A32B6 /* Tip Calculator.app */;
+			productReference = 0B481A1A25974C37003A32B6 /* Tipsy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0B481A2F25974C37003A32B6 /* Tip CalculatorTests */ = {
@@ -441,7 +441,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "gv.Tip-Calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipsy;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "gv.Tip-Calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tipsy;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
